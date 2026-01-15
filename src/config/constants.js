@@ -24,8 +24,8 @@ export const MAP_CONFIG = {
 
 // Colors for different shape types
 export const SHAPE_COLORS = {
-  CIRCLE: '#3388ff',
-  RECTANGLE: '#ff7833',
-  POLYGON: '#33ff33',
-  LINESTRING: '#ff33ff'
+  CIRCLE: '#0066ff',
+  RECTANGLE: '#ff0033',
+  POLYGON: '#0066ff',
+  LINESTRING: '#ff0033'
 };
