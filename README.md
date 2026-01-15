@@ -1,6 +1,6 @@
-# OpenStreetMap Drawing Application
+# Map Drawing Studio
 
-A React-based web application that renders OpenStreetMap tiles and allows users to draw and manage geometrical features with non-overlapping constraints.
+A React-based web application that renders OpenStreetMap tiles and allows users to draw and manage geometrical features with non-overlapping constraints. Features a modern red and blue color scheme with enhanced SEO optimization.
 
 ## Features
 
@@ -10,6 +10,9 @@ A React-based web application that renders OpenStreetMap tiles and allows users 
 - **GeoJSON Export**: Export all drawn features in GeoJSON format
 - **Dynamic Configuration**: Easily adjustable shape limits per type
 - **Responsive Design**: Works on desktop and mobile devices
+- **Modern UI Theme**: Red and blue color scheme for enhanced visual appeal
+- **SEO Optimized**: Enhanced HTML metadata for better search engine visibility
+- **Code Quality**: Improved ESLint configuration with TypeScript support
 
 ## Technology Stack
 
@@ -19,6 +22,8 @@ A React-based web application that renders OpenStreetMap tiles and allows users 
 - **Turf.js**: Geospatial analysis and polygon operations
 - **Vite**: Build tool and development server
 - **CSS3**: Modern styling with animations
+- **ESLint**: Code quality and style enforcement
+- **HTML5**: Semantic markup with SEO optimization
 
 ## Project Structure
 
@@ -174,16 +179,23 @@ export const MAP_CONFIG = {
 ```
 
 ### Shape Colors
-Customize colors for different shape types:
+Customize colors for different shape types (currently using red and blue theme):
 
 ```javascript
 export const SHAPE_COLORS = {
-  CIRCLE: '#3388ff',
-  RECTANGLE: '#ff7833',
-  POLYGON: '#33ff33',
-  LINESTRING: '#ff33ff'
+  CIRCLE: '#0066ff',      // Blue
+  RECTANGLE: '#ff0033',   // Red
+  POLYGON: '#0066ff',     // Blue
+  LINESTRING: '#ff0033'   // Red
 };
 ```
+
+### UI Theme
+The application features a modern red and blue color scheme:
+- **Primary colors**: Blue (#0066ff) for actions and selected states
+- **Accent colors**: Red (#ff0033) for errors and secondary elements
+- **Header gradient**: Blue to red transition
+- **Hover effects**: Light blue and light red backgrounds
 
 ## Sample GeoJSON Export
 
@@ -223,12 +235,15 @@ export const SHAPE_COLORS = {
 
 ### Code Quality
 
-The application follows React best practices:
+The application follows React best practices with enhanced tooling:
 - **Custom hooks** for reusable logic
 - **Context API** for state management
 - **Modular components** with clear responsibilities
 - **Utility functions** for complex operations
 - **Error handling** with user-friendly messages
+- **Enhanced ESLint configuration** with TypeScript support
+- **Code quality rules**: `no-console` warnings, `prefer-const` enforcement
+- **Test file handling**: Separate ESLint rules for test/spec files
 
 ## Browser Support
 
@@ -236,6 +251,23 @@ The application follows React best practices:
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
+
+## Recent Updates
+
+### Color Scheme Enhancement
+- Updated UI theme to modern red and blue color scheme
+- Enhanced visual hierarchy with contrasting colors
+- Improved accessibility with better color contrast
+
+### SEO Optimization
+- Added comprehensive HTML metadata
+- Enhanced page title and description
+- Added meta keywords and author information
+
+### Code Quality Improvements
+- Enhanced ESLint configuration with TypeScript support
+- Added new code quality rules and standards
+- Improved test file handling and configuration
 
 ## Contributing
 
